@@ -16,6 +16,7 @@ public class ExampleThree {
         int result = 3 / 0;
         // Syntax Error - Anything Java does not understand (gives a red squiggle like missing a ")
         // System.out.println("Hello World);
+        // Commented error above
 
 
     }
