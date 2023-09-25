@@ -7,7 +7,9 @@ public class ExampleOne {
         int numTests = 3;
 
         //double average = (mark1 + mark2 + mark3) / (double)numTests;
-        //double average = (double)(mark1 + mark2 + mark3) / numTests;    // brackets first, casting second in order of operations
+        //double average = (double)(mark1 + mark2 + mark3) / numTests;    
+        // brackets first, casting second in order of operations
+        
         //double average = (mark1 + (double)mark2 + mark3) / numTests;
         // everything above worked
 

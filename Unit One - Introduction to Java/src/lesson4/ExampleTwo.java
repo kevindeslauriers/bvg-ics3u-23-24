@@ -8,12 +8,6 @@ public class ExampleTwo {
 
         int number = (int)z;    // can cast a double to an int treats 6.8 as 6 
                                 // loss of precision it is called a narrowing conversion
-
-
-
-
-
-
     }
-    
 }
+

@@ -22,8 +22,5 @@ public class ExampleThree {
         // Syntax Error: Won't run (compile), red squiggle, error in the Java Code, forgetting a "" or maybe ;
         //System.out.println("Hello World);
 
-
-
-
     }
 }
