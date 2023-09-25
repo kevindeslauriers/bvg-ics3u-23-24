@@ -1,22 +1,28 @@
 package lesson4;
 
 public class ExampleThree {
+
     public static void main(String[] args) {
-        int mark1 = 80, mark2 = 83, mark3 = 96;
-        // Types of Errors
+        int mark1 = 84, mark2 = 91, mark3 = 97;
+        int numTests = 3;
 
-        // Logic Error -Program runs, does not CRASH but gives wrong results
-        double average = mark1 + mark2 + mark3 / 3;
+        // Three  types of Errors:
 
-        // Runtime Error - When the program is running and it crashes - throws an exception
+        // Logic Errors: Program runs, doesn't crash but you don't get the expected output
+        double average = mark1 + mark2 + mark3 / (double)numTests;
+
+        // Runtime Errors: Runs but craches when it is running ex: divide by 0: throws an exception
+        int number = 7 / 0;
+
         /*
          * Exception in thread "main" java.lang.ArithmeticException: / by zero
-                at lesson4.ExampleThree.main(ExampleThree.java:12)
+        at lesson4.ExampleThree.main(ExampleThree.java:15)
          */
-        int result = 3 / 0;
-        // Syntax Error - Anything Java does not understand (gives a red squiggle like missing a ")
-        // System.out.println("Hello World);
-        // Commented error above
+
+        // Syntax Error: Won't run (compile), red squiggle, error in the Java Code, forgetting a "" or maybe ;
+        //System.out.println("Hello World);
+
+
 
 
     }
