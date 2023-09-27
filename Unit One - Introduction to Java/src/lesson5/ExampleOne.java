@@ -15,6 +15,6 @@ public class ExampleOne {
                                         // input from the keyboard
 
                                     
-        input.close();
+        input.close(); // close resource
     }
 }
