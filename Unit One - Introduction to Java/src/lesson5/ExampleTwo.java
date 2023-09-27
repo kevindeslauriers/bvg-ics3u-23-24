@@ -6,7 +6,7 @@ public class ExampleTwo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // Prompt the user for an integer
-       /*  System.out.print("Please enter a number: ");
+         System.out.print("Please enter a number: ");
         int x = in.nextInt();
 
         System.out.println(x);
@@ -20,7 +20,7 @@ public class ExampleTwo {
        int b = in.nextInt();
 
        System.out.println(a+b);
-       */
+       
 
        System.out.print("PLease enter a number: ");     // if I give it two numbers seperated by a space
                                                         // it takes the first and leaves the 2nd for later
