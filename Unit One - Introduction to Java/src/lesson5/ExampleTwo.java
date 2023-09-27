@@ -24,11 +24,11 @@ public class ExampleTwo {
 
        System.out.print("PLease enter a number: ");     // if I give it two numbers seperated by a space
                                                         // it takes the first and leaves the 2nd for later
-       int x = in.nextInt();
+       int x1 = in.nextInt();
        System.out.print("Please enter another number: ");
-       int y = in.nextInt();
+       int y1 = in.nextInt();
 
-       System.out.println(x+y);
+       System.out.println(x1+y1);
 
        in.close();
     }
