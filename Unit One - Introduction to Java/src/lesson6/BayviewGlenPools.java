@@ -22,7 +22,7 @@ public class BayviewGlenPools {
         double deepEndSideArea = deepHeight * (length - shallowLength - transitionBaseLength);
         double deepEndVolume = deepEndSideArea * width;
 
-        
+        double volume = deepEndVolume + shallowVolume + transitionVolume;
 
 
     }
