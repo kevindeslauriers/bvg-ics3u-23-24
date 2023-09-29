@@ -24,6 +24,11 @@ public class BayviewGlenPools {
 
         double volume = deepEndVolume + shallowVolume + transitionVolume;
 
+        double surfaceAreaBotton = (shallowLength + transition + (length - shallowLength - transitionBaseLength)) * width;
+        double totalSideSurfaceArea = (deepEndSideArea + transitionSideWallArea + shallowSideWallArea + (shallowHeight * transitionBaseLength)) * 2;
+        double backFrontSurfaceArea = width * (shallowHeight + deepHeight);
 
+        double totalSurfaceArea = surfaceAreaBotton + totalSideSurfaceArea + backFrontSurfaceArea;
+        
     }
 }
