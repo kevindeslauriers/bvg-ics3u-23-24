@@ -23,6 +23,7 @@ public class ExampleThree {
         System.out.println(a/b);    // 3.5
         System.out.println(x/b);    // 3.5
         System.out.println(y/x);    // 0
+        System.out.println(x%y);
     }
 }
 
