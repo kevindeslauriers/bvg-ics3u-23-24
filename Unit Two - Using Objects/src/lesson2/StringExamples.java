@@ -10,7 +10,7 @@ public class StringExamples {
         System.out.println(s1 + " has a length of " + strLength);
         System.out.println(s2 + " has a length of " + s2.length());
         System.out.println("Lester has a length of " + "Lester".length());
-        //test
+        
         String s = "ppy";
         System.out.println("The index of "+ s +" in " + s2 + " is " + s2.indexOf(s));
         System.out.println("The index of "+ s2 +" in " + s + " is " + s.indexOf(s2));
