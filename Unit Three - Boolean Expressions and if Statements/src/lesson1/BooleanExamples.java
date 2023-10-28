@@ -1,6 +1,6 @@
 package lesson1;
 
-public class BoolanExamples {
+public class BooleanExamples {
     public static void main(String[] args) {
         boolean hasShoes = true;
         boolean isHappy = false;
