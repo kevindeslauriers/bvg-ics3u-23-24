@@ -19,5 +19,4 @@ public class NumberList {
         NumberList temp = new NumberList(list1.num1 + list2.num1, list1.num2 + list2.num2,list1.num3 + list2.num3);
         return temp;
     }
-
 }
