@@ -1,3 +1,4 @@
+package arraylists;
 import java.util.ArrayList;
 
 public class ArrayListExamples1 {
