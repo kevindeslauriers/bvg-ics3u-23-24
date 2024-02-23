@@ -25,7 +25,7 @@ public class SelectionSort {
         for (int i = 1; i < arr.length; i++) {
             int temp = arr[i];
             int j = i;
-            for (j = i; j > 0 && temp < arr[j-1]; j--) {
+            while (j > 0 && temp < arr[j-1]) {
                 arr[j] = arr[j-1];
             }
 
