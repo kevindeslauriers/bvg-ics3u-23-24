@@ -32,6 +32,16 @@ public class Searching {
         return -1;
     }
 
+
+    private static int sequentialSearchStrings(String[] arr, String val) {
+        for (int i = 0; i < arr.length; i++) {
+         if (arr[i].equals(val))
+             return i;
+        }
+ 
+        return -1;
+     }
+
     private static int sequentialSearch(int[] arr, int val) {
        for (int i = 0; i < arr.length; i++) {
         if (arr[i] == val)
