@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class Dog {
+public class Dog extends Animal{
     public void makeSound(){
         bark();
     }

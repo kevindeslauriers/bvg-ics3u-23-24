@@ -1,7 +1,7 @@
 package polymorphism;
 
-public class Cat {
-    public void makeSound(){
+public class Cat extends Animal{
+    public void makeSound(){    // overwritten Parent Version
         meow();
     }
 
