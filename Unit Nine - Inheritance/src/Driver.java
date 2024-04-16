@@ -5,6 +5,7 @@ public class Driver {
 
         Android a = new Android(x);  // call the Android 1 arg constructor
         a.setServoCount(y);
+        a.setLocal(x);
         System.out.println(a.getServoCount());
     }
 }

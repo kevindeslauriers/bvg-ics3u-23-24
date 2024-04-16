@@ -1,9 +1,9 @@
-public class Robot{
+public class Robot extends Steve{
 
     private int servoCount;
 
-    public Robot(){
-        System.out.println("Test");
+    public Robot(int x){
+        System.out.println("You are a bot!");
     }
 
     public int getServoCount(){

@@ -2,24 +2,26 @@ package polymorphism;
 
 public class Driver {
     public static void main(String[] args) {
-        Dog dog1 = new Dog();
+        // Dog dog1 = new Dog();
         // dog1.makeSound();
         // dog1.bark();
 
-        Cat cat1 = new Cat();
+        Cat cat1 = new Cat(7,"Steve");
+        System.out.println(cat1);
         // cat1.makeSound();
         // cat1.meow();
 
-        Animal animal1 = new Dog(); // dogs are animals - this works
-       //  Dog animal2 = new Animal();  syntax error not all animals are Dogs
+        //cat1.bark() - cannot do this
 
-       animal1.makeSound(); // dynamic binding - uses Dog's makeSound method because it is a Dog (happens at rundtime.)
-       //animal1.bark();  Animal has no bark method
+        // Animal animal1 = new Dog();
+        //Dog animal2 = new Animal();   not all animals are dogs
 
-       animal1 = new Cat();
-       animal1.makeSound();
+        // animal1.makeSound();        // dynamic binding
+        // animal1.bark();
+        // animal1 = cat1;
+        // animal1.makeSound();
 
-
+        // animal1.bark();
 
     }
     
